@@ -1,0 +1,127 @@
+{
+    "_": "", 
+    "buttons": {
+        "A": {
+            "action": "button(Keys.KEY_LEFTCTRL)", 
+            "name": "Action"
+        }, 
+        "B": {
+            "action": "button(Keys.KEY_KP5)", 
+            "name": "Roll/Reverse"
+        }, 
+        "BACK": {
+            "action": "button(Keys.KEY_ESC)", 
+            "name": "Pause"
+        }, 
+        "C": {
+            "action": "menu('Default.menu')", 
+            "doubleclick": {}, 
+            "hold": {
+                "action": "menu('Default.menu')"
+            }
+        }, 
+        "LGRIP": {
+            "action": "button(Keys.KEY_DELETE)", 
+            "name": "Sidestep Left"
+        }, 
+        "RB": {
+            "action": "button(Keys.KEY_LEFTSHIFT)", 
+            "name": "Walk"
+        }, 
+        "RGRIP": {
+            "action": "button(Keys.KEY_PAGEDOWN)", 
+            "name": "Sidestep Right"
+        }, 
+        "RPAD": {
+            "action": "button(Keys.KEY_KP0)"
+        }, 
+        "START": {
+            "action": "button(Keys.KEY_ESC)", 
+            "name": "Pause"
+        }, 
+        "X": {
+            "action": "button(Keys.KEY_LEFTALT)", 
+            "name": "Jump"
+        }, 
+        "Y": {
+            "action": "button(Keys.KEY_SPACE)", 
+            "name": "Draw/Holster Weapon"
+        }
+    }, 
+    "gyro": {}, 
+    "is_template": false, 
+    "menus": {}, 
+    "pad_left": {
+        "dpad": [{
+            "action": "button(Keys.KEY_UP)"
+        }, {
+            "action": "button(Keys.KEY_DOWN)"
+        }, {
+            "action": "button(Keys.KEY_LEFT)"
+        }, {
+            "action": "button(Keys.KEY_RIGHT)"
+        }]
+    }, 
+    "pad_right": {
+        "dpad": [{
+            "action": "button(Keys.BTN_THUMBR)", 
+            "name": "Look Up"
+        }, {
+            "action": "button(Keys.BTN_THUMBR)", 
+            "name": "Look Down"
+        }, {
+            "action": "button(Keys.BTN_THUMBR)", 
+            "name": "Look Right"
+        }, {
+            "action": "button(Keys.BTN_THUMBR)", 
+            "name": "Look Left"
+        }], 
+        "modes": {
+            "RPAD": {
+                "dpad": [{
+                    "action": "button(Keys.KEY_DOWN)"
+                }, {
+                    "action": "button(Keys.KEY_UP)"
+                }, {
+                    "action": "button(Keys.KEY_RIGHT)"
+                }, {
+                    "action": "button(Keys.KEY_LEFT)"
+                }], 
+                "feedback": ["RIGHT", 1024, 8]
+            }
+        }
+    }, 
+    "stick": {
+        "dpad": [{
+            "action": "button(Keys.KEY_UP)"
+        }, {
+            "action": "button(Keys.KEY_DOWN)"
+        }, {
+            "action": "button(Keys.KEY_LEFT)"
+        }, {
+            "action": "button(Keys.KEY_RIGHT)"
+        }], 
+        "feedback": ["LEFT", 0, 8.0]
+    }, 
+    "trigger_left": {
+        "actions": [{
+            "action": "button(Keys.KEY_KP0)", 
+            "levels": [254, 254], 
+            "name": "Look"
+        }, {
+            "action": "axis(Axes.ABS_Z)"
+        }], 
+        "name": "Look"
+    }, 
+    "trigger_right": {
+        "actions": [{
+            "action": "button(Keys.KEY_LEFTCTRL)", 
+            "levels": [254, 254], 
+            "name": "Action"
+        }, {
+            "action": "axis(Axes.ABS_RZ)"
+        }], 
+        "name": "Action"
+    }, 
+    "version": 1.2
+}
